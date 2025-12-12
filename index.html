@@ -65,37 +65,45 @@
     </section>
   </header>
 
-  <main>
     <!-- ABOUT / WHAT IS -->
     <section id="about" class="section">
       <div class="container">
         <h2>What is ShowUI-Aloha?</h2>
+
         <p>
           <strong>ShowUI-Aloha</strong> is a human-taught computer-use agent designed for real Windows and macOS desktops.
           Instead of relying purely on prompts, Aloha learns directly from human demonstrations: it records the screen,
           mouse, and keyboard while a human completes a task, then distills the demonstration into a semantic action trace.
         </p>
-        <p>
-          Aloha learns through <strong>abstraction, not memorization</strong>. A single demonstration can generalize to an
-          entire family of related tasks — such as booking different flights, editing new spreadsheets, or modifying other
-          slide decks — as long as they share the same workflow structure.
-        </p>
 
         <div class="two-column">
-          <ul class="feature-list">
-            <li>Records human demonstrations (screen + mouse + keyboard)</li>
-            <li>Learns semantic action traces from demonstrations</li>
-            <li>Plans new tasks by reusing the learned workflow</li>
-            <li>Executes robustly with OS-level clicks, drags, typing, scrolling, and hotkeys</li>
-          </ul>
 
+          <!-- LEFT COLUMN -->
+          <div>
+            <p>
+              Aloha learns through <strong>abstraction, not memorization</strong>. A single demonstration can generalize to an
+              entire family of related tasks — such as booking different flights, editing new spreadsheets, or modifying other
+              slide decks — as long as they share the same workflow structure.
+            </p>
+
+            <ul class="feature-list">
+              <li>Records human demonstrations (screen + mouse + keyboard)</li>
+              <li>Learns semantic action traces from demonstrations</li>
+              <li>Plans new tasks by reusing the learned workflow</li>
+              <li>Executes robustly with OS-level clicks, drags, typing, scrolling, and hotkeys</li>
+            </ul>
+          </div>
+
+          <!-- RIGHT COLUMN -->
           <div class="figure">
             <img src="assets/diagrams/pipeline_4_step.png" alt="Aloha 4-step teaching and execution pipeline" />
             <p class="figure-caption">Figure: Aloha learns from human demonstrations and reuses the abstracted trace to execute new task variants.</p>
           </div>
+
         </div>
       </div>
     </section>
+
 
     <!-- COMPARISONS -->
     <section id="comparisons" class="section section-alt">
@@ -113,7 +121,7 @@
             <h3>Case 1 — GitHub Repository Update</h3>
             <div class="video-wrapper">
               <video
-                src="https://github.com/SirCSpencer/Aloha_Webpage/blob/main/assets/comparisons/github.mp4"
+                src="assets/comparisons/github.mp4"
                 controls
                 playsinline
                 muted
@@ -132,7 +140,7 @@
             <h3>Case 2 — PowerPoint Background Color Editing</h3>
             <div class="video-wrapper">
               <video
-                src="https://github.com/SirCSpencer/Aloha_Webpage/blob/main/assets/comparisons/slides.mp4"
+                src="assets/comparisons/slides.mp4"
                 controls
                 playsinline
                 muted
@@ -148,10 +156,10 @@
 
           <!-- CASE 3 -->
           <article class="comparison-card">
-            <h3>Case 3 — Excel Matrix Transpose</h3>
+            <h3>Case 3 — Excel Matrix Transpose Challenge</h3>
             <div class="video-wrapper">
               <video
-                src="https://github.com/SirCSpencer/Aloha_Webpage/blob/main/assets/comparisons/sheet.mp4"
+                src="assets/comparisons/sheet.mp4"
                 controls
                 playsinline
                 muted
